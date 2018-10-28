@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.4.3/cropper.css">
   <style>
     .container {
-      max-width: 500px;
       margin: 20px auto;
     }
 
@@ -20,7 +19,7 @@
 <body>
   <div class="container">
     <div>
-      <img id="image" src="photo.jpg" alt="Picture">
+      <img id="image" src="photo.jpg" alt="Picture" height="600px">
     </div>
     <p>Data: <span id="data"></span></p>
     <p>Crop Box Data: <span id="cropBoxData"></span></p>
